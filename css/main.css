@@ -1,0 +1,545 @@
+body{
+    background-color: #0f0f0f !important;
+}
+.slider-menu{
+    margin-top: 3rem;
+}
+.seacod_rows{
+    margin-top: 20px;
+}
+.header-line h1{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--danger);
+    padding: 15px 10px;  
+    text-transform: uppercase;
+}
+.text-imgs img {
+    width: 100%;
+    height: 100%;
+}
+.meddle-img{
+    padding-top: 25px;
+}
+.meddle-img img{
+    width: 100%;
+    height: 100%;
+}
+.bussines-img img{
+    width: 100px;
+    height: 100px;
+}
+.Bussiness-back{
+    background: #81818173 !important;
+}
+.politice-img img{
+    width: 100%;
+    height: 100%;
+}
+.politice-img2 img{
+    width: 100%;
+    height: 100%;
+}
+.Sports-back{
+    background: var(--secondary);
+}
+.latestnew-img img{
+    width: 100%;
+    height: 250px;
+}
+.padding-section{
+    margin-top: 60px;
+}
+.side-section{
+    padding-top: 30px;
+}
+.Breaking-section .text-news{
+    border: 0.3px solid #2c2828;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.Breaking-section .text-imgs{
+    border: 0.3px solid #2c2828;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.Breaking-section .text-news a h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
+}
+.Breaking-section .text-news a h3:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.Breaking-section .text-news p{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff8e;
+    text-transform: uppercase;
+   
+}
+.Breaking-section .text-news p span{
+    font-size: 10px;
+    color: #dddddd57;
+    text-transform: uppercase;
+    padding-left: 20px ; 
+}
+.Breaking-section .medle-none{
+    border-bottom: none !important;
+}
+.Breaking-section .medlle-text{
+    border-bottom: 0.3px solid #2c2828;
+}  
+.Breaking-section .medlle-text a h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
+}
+.Breaking-section .medlle-text a h3:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.Breaking-section .text-news a h3 span{
+
+    padding: 4px 2px;
+    background-color: rgb(165, 53, 53);
+    color: #fff;
+}
+.Breaking-section .medlle-text h6{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff8e;
+    text-transform: uppercase;
+}
+.Breaking-section .medlle-text h6 span{
+    font-size: 10px;
+    color: #dddddd57;
+    text-transform: uppercase;
+    padding-left: 20px ; 
+}
+.Breaking-section .medlle-text .meddle-img p{
+    font-size: 14px;
+    text-transform: none;
+    color: #cccbcb;
+    padding-top: 30px;
+
+}
+.Breaking-section .medlle-text P{
+    font-size: 14px;
+    text-transform: none;
+    color: #cccbcb;
+    padding-top: 20px;
+}
+.Breaking-section .mar-top{
+    padding-top: 20px;
+}
+.Bussiness-section .header-bux{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Bussiness-section .header-bux h4{
+   border-bottom: 2px solid red;
+   font-size: 20px;
+   font-weight: 600;
+   color: #fff;
+
+}
+.Bussiness-section .bussines-recap{
+    display: flex;
+    padding: 8px;
+}
+.Bussiness-section .bussines-recap .bussines-text a h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 25px;
+    transition: 0.4s ease-in-out;
+
+}
+.Bussiness-section .bussines-recap .bussines-text a h4:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.Bussiness-section .bussines-recap .bussines-text p{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff8e;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+.Bussiness-section .bussines-recap .bussines-text p span{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: none;
+    padding-left: 10px;
+    
+}
+
+.Politics-section .politice-text,.politice-img2{
+    border: 0.3px solid #2c2828;
+    padding: 10px 30px;
+    cursor: pointer;
+
+}
+.Politics-section .politice-text a h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
+}
+.Politics-section .politice-text a h3:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.Politics-section .politice-text h6{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff8e;
+    text-transform: uppercase;
+
+}
+.Politics-section .politice-text h6 span{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: none;
+    padding-left: 15px;
+}
+.Politics-section .politice-text .politice-img{
+    margin-top: 35px;
+}
+.Politics-section .politice-text .politice-img p{
+    margin-top: 20px;
+    color: #cccbcb;
+    font-size: 15px;
+}
+.Politics-section .politice-text p{
+    margin-top: 20px;
+    color: #cccbcb;
+    font-size: 15px;
+}
+.politice-img2{
+    padding: 20px;
+}
+.back-color{
+    background: #81818173 !important;
+}
+.newsletter .dosc-center{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.newsletter .newsletter-header h2{
+    font-size: 35px;
+    color: azure;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.newsletter .newsletter-pera p{
+    font-size: 14px;
+    color: rgb(219, 219, 219);
+    margin-bottom: 20px;
+
+}
+.newsletter .newsletter-form{
+    display: inline-flex;
+    text-align: center !important;
+}
+.newsletter .newletter-docs{
+    display: flex;
+    text-align: center !important;
+}
+.newsletter .newsletter-form .form-btn button{
+    background: red;
+    border: none;
+    color: #fff;
+    padding: 4px 2px;
+}
+.newsletter .newsletter-form .form-btn input{
+    padding: 2px 20px !important;
+    border: none;
+    background-color: #2c2828;
+    color: #fff;
+    
+}
+.newsletter .form-check{
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(219, 219, 219);
+}
+.Sports-section .header-bux{
+    text-align: center;
+    
+}
+.Sports-section .header-bux h4{
+    border-bottom: 2px solid red;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.Sports-section .bussines-recap{
+    display: flex;
+    padding: 8px;
+}
+.Sports-section .bussines-recap a h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 25px;
+    transition: 0.4s ease-in-out;
+}
+.Sports-section .bussines-recap a h4:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.Sports-section .bussines-recap .bussines-text p{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff8e;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+.Sports-section .bussines-recap .bussines-text p span{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: none;
+    padding-left: 10px;
+}  
+.latestnew-text{
+    margin-top: 20px;
+}
+.Latestnews-section .latestnew-text a h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    transition: all .20s ease-in-out;
+}
+.Latestnews-section .latestnew-text a h3:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.Latestnews-section .latestnew-text h6{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e0e0e08e;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.Latestnews-section .latestnew-text h6 span{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #bebebe;
+    text-transform: none;
+    padding-left: 15px;
+}
+.Latestnews-section .latestnew-text p{
+    color: #aaa8a8;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.pagination-sm .page-item{
+   margin: 0px 20px;
+}
+
+.pagination-sm .page-link{
+    background: #2c2828;
+    color: #fff;
+    font-size: 15px;
+    border-radius: none !important;
+    border: none !important;
+}
+.pagination-sm .page-link:hover{
+    background: red;
+    color: #0f0f0f;
+}
+.pagination-docs{
+    float: left;
+}
+.pagination{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-back{
+    background: #81818173 !important;
+   
+}
+.footer-section .logo-footer{
+  margin-top: 30px;
+}
+
+.footer-section .logo-footer h3 span i{
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 5px;
+    
+}
+.footer-section .logo-footer h3{
+    font-size: 14px;
+    color: #fff;
+   
+}
+.footer-section .logo-from{
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.footer-section .logo-from input{
+    font-size: 16px;
+    border: none !important;
+    background: #2c2828;
+    color: #fff;
+
+}
+.footer-section .logo-from button{
+    background: rgba(255, 19, 19, 0.788);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-family: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-group .form-check-label{
+    color: rgb(177, 184, 184);
+    font-size: 13px;
+}
+.form-group .form-check-label a{
+    color: azure;
+}
+.footer-nav ul li{
+    list-style: none;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px 30px;
+    transition: 0.4s ease-in-out;
+}
+.footer-nav ul li a:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+
+.footer-about,.footer-nav,.footer-icons{
+    margin-top: 30px;
+}
+.footer-about .about-text a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px 30px;
+    transition: 0.4s ease-in-out;
+}
+.footer-about .about-text a:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.footer-icons .icons-docs h5 i{
+    padding: 0 15px;
+}
+.footer-icons .icons-docs h5{
+    color: azure;
+    padding: 0px 30px;
+    transition: 0.4s ease-in-out;
+}
+.footer-icons .icons-docs h5:hover{
+    color: rgba(255, 19, 19, 0.788);
+}
+.footer-end-section{
+    margin-top: 15px;
+
+}
+.footer-end-section p{
+    font-size: 16px;
+    color: #cccbcb;
+}
+
+@media (max-width: 1020px) {
+    .logo-footer, .logo-from, .form-group, .footer-nav{
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .footer-section .logo-from {
+        display: grid;
+    }
+    .footer-about, .footer-nav, .footer-icons {
+        text-align: center;
+    }
+    .footer-section .logo-footer {
+        text-align: center;
+    }
+    .pagination-sm .page-item {
+        margin: 0px 11px;
+    }
+    .footer-nav {
+        display: none;
+    }
+    
+}
+@media (max-width: 400px) {
+    .footer-section .logo-from {
+        display: grid;
+    }
+    .footer-about, .footer-nav, .footer-icons {
+        text-align: center;
+    }
+    .footer-section .logo-footer {
+        text-align: center;
+    }
+    .pagination-sm .page-item {
+        margin: 0px 11px;
+    }
+    .footer-nav {
+        display: none;
+    }
+    .Sports-section .bussines-recap a h4 {
+        font-size: 14px;
+    }
+    .newsletter .newsletter-form {
+        display: grid;
+    }
+    .newsletter .newsletter-form .form-btn button {
+        width: 100%;
+    }
+    .Politics-section .politice-text a h3 {
+        font-size: 21px;  
+    }
+    .Politics-section .politice-text p {
+        font-size: 13px;
+    }
+    .Politics-section .politice-text .politice-img p {
+        font-size: 13px;
+    }
+    .Bussiness-section .bussines-recap .bussines-text a h4 {
+        font-size: 15px;
+    }
+    .Breaking-section .medlle-text a h3 {
+        font-size: 21px;
+    }
+    .Breaking-section .medlle-text P {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
